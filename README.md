@@ -1,171 +1,29 @@
----
-# 🚨🚨🚨This repository is EOL 🚨🚨🚨
-## Read below for instructions on new token metadata flow
----
+As informações do projeto estão no caminho a seguir
+--https://archive.org/details/white-paper-ml-coin/page/n3/mode/2up
 
-As of June 20th, this repository will be archived and will receive no more updates. The repository will be set to read-only and the npm package will still exist at `@solana/spl-token-registry`.
+Nosso contrato é
+7FbtVYZTn5Yo8U2PHbL8GPzhrZRe4GJpqPMuivc8pump
 
-## Adding a New Token
+PAGUE SEUS IMPOSTOS COM PAPEL PINTADO DO GOVERNO
 
-You can use one of two tools at the time of writing:
+sOMOS uma arma de guerra contra censura - Nunca mais ninguém vai te calar! É a única ferramenta que acaba de uma vez por todas com a possibilidade de um ente qualquer te imponha o silencio. Por meio do registro na Block Chain à um custo quase zero - Abaixo eu professei minha fé de maneira irreversivel. Você pode manifestar sua opinião livremente mesmo que em desfavor de um politico, de um juiz ou de alguma autoridade que queira te calar. Bitcoin Cash é totalmente anti censura.
 
-1. [Strata Protocol Token Launchpad](https://app.strataprotocol.com/launchpad/manual/new)
-2. [Token Creator Demo](https://token-creator-lac.vercel.app/)
+somos a ferramenta que vai garantir que seu desejo fique expresso de modo totalmente incontestável, pois permite que você celebre contratos, escreva testamentos, registre momentos, registre promessas contratuais e imortalize informações de qualquer tipo.  Ou seja, Sua Palavra estará Registrada de modo Indiscutivel. 
 
-All new token metadata will be added using Metaplex Fungible Token Metadata. The steps to add new Fungible Token Metadata are as follows:
+À medida que a procura por transações rápidas, sem fronteiras e acessíveis aumenta os comércios começam também adotar. De modo geral, a criptomoeda mais importante é o Bitcoin, entretanto, a moeda digital com maior numero de casos reais de uso é o BitcoinCash. Pois as transações são imediatas, as taxas são extremamente baixas e o acesso ao dinheiro digital ainda é possivel, permitindo que as negociações aconteçam sem intermedio de centralizadores como bancos, governos e intermediadores de pagamento que apenas encaressem a transação.
 
-1. Use `CreateMetadataV2` instruction from Metaplex token metadata to create new metadata for token.
-2. Make sure you use the correct format for the token metadata.
-3. You must have mint authority in order to create or update the metadata
+tem taxas muito baixas, isso permite que você tome aquele cafézinho na padaria, coma aquela coxinha na rodoviaria, beba uma coca cola no aeroporto, compre uma pipoca no cinema ou ainda aquela cervejinha no dia ensolarado, no pós trabalho ou na sexta feira pós facul sem pagar taxas altissimas ou mesmo sem usar as empresas centralizadoras que podem sumir do dia 
 
-The token metadata for Metaplex Metadata Schema is in the following format:
+você não precisa se preocupar com débitos indevidos, interferencia financeira, gestão sem autorização do seu dinheiro, além da apreensão ou bloqueio de seus recursos. Pesquise na internet os relatos de quantas pessoas tiveram suas contas bancarias bloqueadas, restringidas e sem acesso inadvertidamente ao bel prazer dos bancos. Pesquise quantos relatos e reclamações existem contra os bancos por débitos indevidos, cobranças indevidas, limitação de uso de fundos. Você se surpreenderá como é normal que os bancos pratiquem arbitrariedades e você acabe sendo prejudicado. 
 
-```json
-{
-  "name": "TOKEN_NAME", 
-  "symbol": "TOKEN_SYMBOL",
-  "uri": "TOKEN_URI",
-  "sellerFeeBasisPoints": 0,
-  "creators": null,
-  "collection": null,
-  "uses": null
-}
-```
+nenhuma pessoa adultera, nenhuma suposta pessoa de confiança, nenhum falso herdeiro, nenhuma pessoa que não te honra poderá ter acesso ao seus recursos que foram conquistados com muito esforço, dedicação e risco. Os interesseiros ainda que sejam interesseiros terão que prestar esse serviço de puxa saco até o ultimo minuto da sua vida, caso contrário não vão ter a menor idéia de qual é a chave privada. A pessoa que te trair vai ter que pensar 1 milhão de vezes sob a pena de perder tudo que você pode oferecer, os filhos terão que cuidar de você em toda sua velhice, caso contrario, "nunca terão"
 
-The `TOKEN_URI` must point to a file with the following format:
+A inflação é frequentemente causada pelo aumento da base monetária, que ocorre quando um governo ou banco central imprime mais cédulas. Isso aumenta a quantidade de moeda em circulação, diminuindo seu valor e elevando os preços dos bens e serviços. Por exemplo, se em uma pequena cidade há apenas 1 quilo de carne disponível e o número de cédulas em circulação dobra, as pessoas terão uma falsa sensação de ganho com mais cédulas, mas na verdade é uma perda. As cédulas não terão o valor suficiente para comprar o que se deseja, pois o preço da carne aumentará e será vendida para quem pagar mais. Este excesso de cédulas leva a um maior poder de compra aparente, mas com mais cédulas competindo pelos mesmos produtos, os preços tendem a subir, resultando em inflação. Em contraste, ML Coin tem em sua programação um limite máximo de 21 milhões de moedas, o que corresponde às cédulas. Como é descentralizado, não é possível mudar essa regra, inviabilizando o aumento da base monetária e, consequentemente, evitando a inflação causada por emissão excessiva de moeda.
 
-```json
-{
-  "name": "TOKEN_NAME",
-  "symbol": "TOKEN_SYMBOL",
-  "description": "TOKEN_DESC",
-  "image": "TOKEN_IMAGE_URL"
-}
-```
+Conforme, escreveu Satoshi Nakamoto, nós precisamos confiar na honestidade dos lideres politicos, pois eles controlam a impressão de dinheiro, porém, com o Bitcoin Cash não será mais necessário confiar nesses líderes mundiais porque o sistema é descentralizado e baseado em criptografia, eliminando a necessidade de intermediários como bancos ou governos para validar e controlar as transações. Com o Bitcoin Cash, os líderes não poderão mais aumentar a base monetária para cumprir promessas políticas, desrespeitar o limite financeiro do país ou roubar sem ser pegos, já que todas as transações são registradas em um livro-razão. Isso garante que o dinheiro tenha origem e destino claros, proporcionando transparência e impedindo manipulações financeiras e corrupção. Dessa forma nós poderemos finalmente experimentar o que está escrito em nossa bandeira: Ordem e Progresso.
 
-Where `TOKEN_IMAGE_URL` is the image url.
+preserva a vantagem original do Bitcoin de ser uma moeda descentralizada, permitindo que qualquer pessoa seja seu próprio banco. Com o aumento das taxas de transação, o Bitcoin adotou a Lightning Network (LNC) como solução, mas essa rede, Lightning Network (LNC) não possui uma blockchain própria e, por ser operada por empresas comuns, na maioria das vezes sem sede,, centraliza as transações. Nesse caso, se for para usar uma empresa, é mais vantajoso utilizar os bancos tradicionais, que são regionalizados e oferecem garantias, pois se é para colocar meus fundos nas mãos de alguém, ao menos seja um conhecido, pois com quem a gente conhece já dá problemas, imagina com os desconhecidos.. Assim, o BCH mantém a promessa de autonomia financeira, permitindo que cada indivíduo realmente controle seu dinheiro, pois você transaciona diretamente de pessoa para pessoa, a um custo baixissimo, sem usar nenhum inetermediario, sendo seu próprio banco. É como se sua grana estivesse com você em todos os momentos. Caso um  ladrão entre na sua casa para pegar sua grana que está debaixo do colchão, ele vai achar uma trolha e uns 10  pipocos na lata dele.
 
-An example of the `TOKEN_URI`: https://token-creator-lac.vercel.app/token_metadata.json
+Vamos juntos.
 
-Which resolves to:
-
-```json
-{
-  "name": "A test token",
-  "symbol": "TEST",
-  "description": "Fully for testing purposes only",
-  "image": "https://token-creator-lac.vercel.app/token_image.png"
-}
-```
-
-## Updating Token Metadata
-
-To update token metadata you must use `createUpdateMetadataAccountV2Instruction` in `@metaplex-foundation/js` in order to update an existing token's metadata.
-
-While updating, you provide the same details as when creating.
-
-## Tools for Adding/Updating/Migrating
-
-Update/migrate token metadata using [Strata Protocol update token tool](https://app.strataprotocol.com/edit-metadata).
-
-A tutorial for adding/updating metadata can be found at the [Token-Creator demo](https://github.com/jacobcreech/Token-Creator).
-
-
-## Reading Legacy Token-list
-
-`@solana/spl-token-registry`
-
-[![npm](https://img.shields.io/npm/v/@solana/spl-token-registry)](https://unpkg.com/@solana/spl-token-registry@latest/) [![GitHub license](https://img.shields.io/badge/license-APACHE-blue.svg)](https://github.com/solana-labs/token-list/blob/b3fa86b3fdd9c817139e38641d46c5a892542a52/LICENSE)
-
-Solana Token Registry is a package that allows application to query for list of tokens.
-The JSON schema for the tokens includes: chainId, address, name, decimals, symbol, logoURI (optional), tags (optional), and custom extensions metadata.
-
-### Installation
-
-```bash
-npm install @solana/spl-token-registry
-```
-
-```bash
-yarn add @solana/spl-token-registry
-```
-
-### Examples
-
-#### Query available tokens
-
-```typescript
-new TokenListProvider().resolve().then((tokens) => {
-  const tokenList = tokens.filterByClusterSlug('mainnet-beta').getList();
-  console.log(tokenList);
-});
-```
-
-#### Render icon for token in React
-
-```typescript jsx
-import React, { useEffect, useState } from 'react';
-import { TokenListProvider, TokenInfo } from '@solana/spl-token-registry';
-
-
-export const Icon = (props: { mint: string }) => {
-  const [tokenMap, setTokenMap] = useState<Map<string, TokenInfo>>(new Map());
-
-  useEffect(() => {
-    new TokenListProvider().resolve().then(tokens => {
-      const tokenList = tokens.filterByChainId(ENV.MainnetBeta).getList();
-
-      setTokenMap(tokenList.reduce((map, item) => {
-        map.set(item.address, item);
-        return map;
-      },new Map()));
-    });
-  }, [setTokenMap]);
-
-  const token = tokenMap.get(props.mint);
-  if (!token || !token.logoURI) return null;
-
-  return (<img src={token.logoURI} />);
-
-```
-
-# Disclaimer
-
-All claims, content, designs, algorithms, estimates, roadmaps,
-specifications, and performance measurements described in this project
-are done with the Solana Foundation's ("SF") good faith efforts. It is up to
-the reader to check and validate their accuracy and truthfulness.
-Furthermore nothing in this project constitutes a solicitation for
-investment.
-
-Any content produced by SF or developer resources that SF provides, are
-for educational and inspiration purposes only. SF does not encourage,
-induce or sanction the deployment, integration or use of any such
-applications (including the code comprising the Solana blockchain
-protocol) in violation of applicable laws or regulations and hereby
-prohibits any such deployment, integration or use. This includes use of
-any such applications by the reader (a) in violation of export control
-or sanctions laws of the United States or any other applicable
-jurisdiction, (b) if the reader is located in or ordinarily resident in
-a country or territory subject to comprehensive sanctions administered
-by the U.S. Office of Foreign Assets Control (OFAC), or (c) if the
-reader is or is working on behalf of a Specially Designated National
-(SDN) or a person subject to similar blocking or denied party
-prohibitions.
-
-The reader should be aware that U.S. export control and sanctions laws
-prohibit U.S. persons (and other persons that are subject to such laws)
-from transacting with persons in certain countries and territories or
-that are on the SDN list. As a project based primarily on open-source
-software, it is possible that such sanctioned persons may nevertheless
-bypass prohibitions, obtain the code comprising the Solana blockchain
-protocol (or other project code or applications) and deploy, integrate,
-or otherwise use it. Accordingly, there is a risk to individuals that
-other persons using the Solana blockchain protocol may be sanctioned
-persons and that transactions with such persons would be a violation of
-U.S. export controls and sanctions law. This risk applies to
-individuals, organizations, and other ecosystem participants that
-deploy, integrate, or use the Solana blockchain protocol code directly
-(e.g., as a node operator), and individuals that transact on the Solana
-blockchain through light clients, third party interfaces, and/or wallet
-software.
+Até breve
