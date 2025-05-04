@@ -1,7 +1,7 @@
 MLCOIN (MLCOIN)
 
 ORIGINAL WHITEPAPER HERE
---https://archive.org/details/white-paper-ml-coin/page/n3/mode/2up
+-https://zenodo.org/records/14853959
 
 OUR contraCt
 7FbtVYZTn5Yo8U2PHbL8GPzhrZRe4GJpqPMuivc8pump
